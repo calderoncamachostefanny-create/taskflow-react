@@ -9,11 +9,13 @@ export default function App() {
   return (
     <>
       <header>
-        <h1>TaskFlow</h1>
-        <p className="subtitle">Organiza tus pendientes</p>
+        <h1>ICESI Tasks</h1>
+        <p className="subtitle">Aquí se trabaja tieso y parejo</p>
       </header>
 
       <main>
+        <h2>Lo que tengo que entregar esta semana</h2>
+
         <NewTaskForm onAdd={addTask} />
 
         {/* controles de la lista */}
